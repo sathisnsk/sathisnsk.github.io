@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+--Dark-Slate-Grey: hsl(234, 29%, 20%);
+--Charcoal-Grey: hsl(235, 18%, 26%);
+--Grey: hsl(231, 7%, 60%);
+--White: hsl(0, 0%, 100%);
+--Tomato: hsl(4, 100%, 67%);
+font-family: "roboto", "sans-serif";
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body {
+  background-color: var(--Charcoal-Grey);
+}
+
+.initial-form-page {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    padding: 5rem;
+    background-color: var(--White);
+    border-radius: 2rem;
+    color: var(--Charcoal-Grey);
+    font-weight: bold;
+    line-height: 1rem;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#left-pane {
+   /* padding-top: 4rem; */
+   padding-bottom: 2rem;
+   padding-right: 2rem;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 3.5rem;
+  color: var(--Dark-Slate-Grey);
+  margin-bottom: 2rem;
+}
+
+.welcome-text, .success-text {
+ line-height: 1.5rem;
+}
+
+ul {
+    list-style-type: none;
+   /*  list-style-image: url("assets/images/icon-list.svg"); */
+   margin-top: 1rem;
+   margin-bottom: 2rem;
+}
+
+li {
+    margin-top: 1rem;
+}
+
+.list-image {
+    margin-right:0.5rem;
+}
+
+.email-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.email-label-text {
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.email-input {
+    display: block;
+    /* padding: 1rem 2.5rem; */
+    width: 20rem;
+    padding: 1rem 2rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+}
+
+.email-error {
+    color: var(--Tomato);
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+.subscribe-btn, .dismiss-btn {
+    display: block;
+    border-radius: 0.5rem;
+    /* padding: 1rem 2.5rem; */
+    width: 20rem;
+    padding: 1rem 2rem;
+    background-color: var(--Dark-Slate-Grey);
+    color: white;
+
+}
+
+.success-page {
+    display: flex;
+    width: 30%;
+    margin: 0 auto;
+    background-color: white ;
+    justify-content: center;
+    padding: 2rem;
+
+    
+    margin-top: 5rem;
+    border-radius: 2rem;
+}
+
+.success-section {
+ 
+    padding:0 1rem; 
+
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 3rem;
+    color: var(--Dark-Slate-Grey);
+    margin: 0;
+    /* margin-bottom: 2rem; */
+  }
+.success-text {
+  margin: 1.5rem 0;
+
+}
+
+.dismiss-btn:active {
+ box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+ color: white;
+ background-color: var(--Tomato);
+}
